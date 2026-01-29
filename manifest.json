@@ -1,0 +1,63 @@
+{
+  "generated": "2026-01-21T10:50:27.156Z",
+  "selected": {
+    "skin": [
+      2000
+    ],
+    "face": [
+      20000,
+      20025,
+      20035
+    ],
+    "hair": [
+      30130
+    ],
+    "top": [
+      1040002
+    ],
+    "bottom": [
+      1060006,
+      1060003
+    ],
+    "shoes": [
+      1070016
+    ],
+    "weapon": [
+      1322005
+    ]
+  },
+  "poses": [
+    "stand1",
+    "stand2",
+    "walk1",
+    "walk2",
+    "jump",
+    "sit",
+    "ladder",
+    "rope",
+    "prone",
+    "proneStab",
+    "stabO1",
+    "stabO2",
+    "swingO1",
+    "swingO2",
+    "swingO3",
+    "alert",
+    "fly",
+    "heal"
+  ],
+  "stats": {
+    "counts": {
+      "skin": 1,
+      "face": 3,
+      "hair": 1,
+      "top": 1,
+      "bottom": 2,
+      "shoes": 1,
+      "weapon": 1
+    },
+    "combinations": 6,
+    "totalImages": 552,
+    "estimatedMinutes": 2
+  }
+}

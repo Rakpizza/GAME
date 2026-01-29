@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Equipment Database</title>
+</head>
+<body>
+<script id="equipment-data" type="application/json">
+{
+  "version": "3.0",
+  "exportDate": "2024-01-24",
+  "api": {
+    "base": "https://maplestory.io/api",
+    "region": "GMS",
+    "version": "253"
+  },
+  "categories": {
+    "skin": { "name": "Skin", "icon": "👤", "order": 1 },
+    "face": { "name": "Face", "icon": "😊", "order": 2 },
+    "hair": { "name": "Hair", "icon": "💇", "order": 3 },
+    "coat": { "name": "Coat", "icon": "👕", "order": 4 },
+    "pants": { "name": "Pants", "icon": "👖", "order": 5 },
+    "shoes": { "name": "Shoes", "icon": "👟", "order": 6 },
+    "gloves": { "name": "Gloves", "icon": "🧤", "order": 7 },
+    "weapon": { "name": "Weapon", "icon": "⚔️", "order": 8 },
+    "shield": { "name": "Shield", "icon": "🛡️", "order": 9 },
+    "hat": { "name": "Hat", "icon": "🎩", "order": 10 },
+    "cape": { "name": "Cape", "icon": "🧥", "order": 11 }
+  },
+  "poses": {
+    "stand1": { "name": "Stand", "frames": 3, "delay": 400 },
+    "walk1": { "name": "Walk", "frames": 4, "delay": 150 },
+    "jump": { "name": "Jump", "frames": 1, "delay": 200 },
+    "swingO1": { "name": "Swing", "frames": 3, "delay": 100 },
+    "stabO1": { "name": "Stab", "frames": 2, "delay": 100 }
+  },
+  "baseItems": {
+    "skin": [
+      { "id": 2000, "name": "Light" },
+      { "id": 2001, "name": "Tan" },
+      { "id": 2003, "name": "Pale" },
+      { "id": 2004, "name": "Dark" }
+    ],
+    "face": [
+      { "id": 20000, "name": "Default" },
+      { "id": 20001, "name": "Smile" },
+      { "id": 20025, "name": "Cute" },
+      { "id": 20035, "name": "Brave" }
+    ],
+    "hair": [
+      { "id": 30000, "name": "Black Short" },
+      { "id": 30010, "name": "Brown" },
+      { "id": 30020, "name": "Blonde" },
+      { "id": 30030, "name": "Red" },
+      { "id": 30130, "name": "Spiky" }
+    ],
+    "coat": [
+      { "id": 1040002, "name": "White Shirt" },
+      { "id": 1040006, "name": "Blue Shirt" },
+      { "id": 1040010, "name": "Basic Armor" }
+    ],
+    "pants": [
+      { "id": 1060002, "name": "Blue Pants" },
+      { "id": 1060003, "name": "Jeans" },
+      { "id": 1060006, "name": "Brown" }
+    ],
+    "shoes": [
+      { "id": 1070000, "name": "Basic" },
+      { "id": 1070002, "name": "Leather" },
+      { "id": 1070016, "name": "Boots" }
+    ],
+    "weapon": [
+      { "id": 1302000, "name": "Sword" },
+      { "id": 1312000, "name": "Axe" },
+      { "id": 1322005, "name": "Mace" },
+      { "id": 1332000, "name": "Dagger" },
+      { "id": 1372000, "name": "Wand" },
+      { "id": 1382000, "name": "Staff" },
+      { "id": 1452000, "name": "Bow" }
+    ]
+  },
+  "items": {
+    "skin": [
+      { "id": "skin_light", "baseMapleId": 2000, "name": "Light Skin", "classes": ["all"], "level": 1 },
+      { "id": "skin_tan", "baseMapleId": 2001, "name": "Tan Skin", "classes": ["all"], "level": 1 },
+      { "id": "skin_pale", "baseMapleId": 2003, "name": "Pale Skin", "classes": ["all"], "level": 1 },
+      { "id": "skin_dark", "baseMapleId": 2004, "name": "Dark Skin", "classes": ["all"], "level": 1 }
+    ],
+    "face": [
+      { "id": "face_default", "baseMapleId": 20000, "name": "Default Face", "classes": ["all"], "level": 1 },
+      { "id": "face_smile", "baseMapleId": 20001, "name": "Smiling Face", "classes": ["all"], "level": 1 },
+      { "id": "face_cute", "baseMapleId": 20025, "name": "Cute Face", "classes": ["all"], "level": 1 },
+      { "id": "face_brave", "baseMapleId": 20035, "name": "Brave Face", "classes": ["all"], "level": 1 }
+    ],
+    "hair": [
+      { "id": "hair_black", "baseMapleId": 30000, "name": "Black Short Hair", "classes": ["all"], "level": 1 },
+      { "id": "hair_brown", "baseMapleId": 30010, "name": "Brown Hair", "classes": ["all"], "level": 1 },
+      { "id": "hair_blonde", "baseMapleId": 30020, "name": "Blonde Spiky", "classes": ["all"], "level": 1 },
+      { "id": "hair_red", "baseMapleId": 30030, "name": "Red Long Hair", "classes": ["all"], "level": 1 },
+      { "id": "hair_spiky", "baseMapleId": 30130, "name": "Cool Spiky", "classes": ["all"], "level": 1 }
+    ],
+    "coat": [
+      { "id": "coat_white", "baseMapleId": 1040002, "name": "White Undershirt", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 2 } },
+      { "id": "coat_blue", "baseMapleId": 1040006, "name": "Blue T-Shirt", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 3 } },
+      { "id": "coat_armor", "baseMapleId": 1040010, "name": "Basic Armor", "rarity": "uncommon", "classes": ["warrior"], "level": 10, "stats": { "defense": 15 } },
+      { "id": "coat_red", "baseMapleId": 1040013, "name": "Red Battle Shirt", "rarity": "uncommon", "classes": ["all"], "level": 8, "stats": { "defense": 8, "attack": 2 } },
+      { "id": "coat_mage_robe", "baseMapleId": 1050010, "name": "Mage Apprentice Robe", "rarity": "uncommon", "classes": ["mage"], "level": 10, "stats": { "defense": 5, "magic_attack": 10, "mp": 20 } }
+    ],
+    "pants": [
+      { "id": "pants_blue", "baseMapleId": 1060002, "name": "Blue Pants", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 1 } },
+      { "id": "pants_jeans", "baseMapleId": 1060003, "name": "Jeans", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 2 } },
+      { "id": "pants_brown", "baseMapleId": 1060006, "name": "Brown Pants", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 2 } },
+      { "id": "pants_black", "baseMapleId": 1060014, "name": "Black Combat Pants", "rarity": "uncommon", "classes": ["thief", "warrior"], "level": 10, "stats": { "defense": 8, "speed": 5 } }
+    ],
+    "shoes": [
+      { "id": "shoes_basic", "baseMapleId": 1070000, "name": "Basic Shoes", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 1 } },
+      { "id": "shoes_leather", "baseMapleId": 1070002, "name": "Leather Boots", "rarity": "common", "classes": ["all"], "level": 5, "stats": { "defense": 3, "speed": 2 } },
+      { "id": "shoes_brown", "baseMapleId": 1070016, "name": "Brown Boots", "rarity": "uncommon", "classes": ["all"], "level": 10, "stats": { "defense": 5, "speed": 3, "jump": 2 } }
+    ],
+    "weapon": [
+      { "id": "weapon_sword", "baseMapleId": 1302000, "name": "Basic Sword", "rarity": "common", "classes": ["warrior", "beginner"], "level": 1, "stats": { "attack": 12 }, "weaponType": "swing" },
+      { "id": "weapon_sword_iron", "baseMapleId": 1302004, "name": "Iron Sword", "rarity": "uncommon", "classes": ["warrior"], "level": 10, "stats": { "attack": 25 }, "weaponType": "swing" },
+      { "id": "weapon_axe", "baseMapleId": 1312000, "name": "Basic Axe", "rarity": "common", "classes": ["warrior", "beginner"], "level": 1, "stats": { "attack": 14 }, "weaponType": "swing" },
+      { "id": "weapon_mace", "baseMapleId": 1322005, "name": "Mace", "rarity": "common", "classes": ["warrior", "beginner"], "level": 5, "stats": { "attack": 18 }, "weaponType": "swing" },
+      { "id": "weapon_dagger", "baseMapleId": 1332000, "name": "Basic Dagger", "rarity": "common", "classes": ["thief", "beginner"], "level": 1, "stats": { "attack": 10, "speed": 3 }, "weaponType": "stab" },
+      { "id": "weapon_dagger_steel", "baseMapleId": 1332010, "name": "Steel Dagger", "rarity": "uncommon", "classes": ["thief"], "level": 10, "stats": { "attack": 22, "speed": 5 }, "weaponType": "stab" },
+      { "id": "weapon_wand", "baseMapleId": 1372000, "name": "Basic Wand", "rarity": "common", "classes": ["mage", "beginner"], "level": 1, "stats": { "magic_attack": 15 }, "weaponType": "magic" },
+      { "id": "weapon_staff", "baseMapleId": 1382000, "name": "Wooden Staff", "rarity": "common", "classes": ["mage"], "level": 8, "stats": { "magic_attack": 22, "mp": 10 }, "weaponType": "magic" },
+      { "id": "weapon_bow", "baseMapleId": 1452000, "name": "Basic Bow", "rarity": "common", "classes": ["archer", "beginner"], "level": 1, "stats": { "attack": 12 }, "weaponType": "shoot" },
+      { "id": "weapon_bow_hunting", "baseMapleId": 1452002, "name": "Hunting Bow", "rarity": "uncommon", "classes": ["archer"], "level": 10, "stats": { "attack": 24 }, "weaponType": "shoot" },
+      { "id": "weapon_fire_sword", "baseMapleId": 1302020, "name": "Fire Sword", "rarity": "rare", "classes": ["warrior"], "level": 20, "stats": { "attack": 45, "magic_attack": 10 }, "weaponType": "swing" }
+    ],
+    "hat": [
+      { "id": "hat_cap", "baseMapleId": 1002024, "name": "Basic Cap", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 2 } },
+      { "id": "hat_helmet", "baseMapleId": 1002000, "name": "Iron Helmet", "rarity": "uncommon", "classes": ["warrior"], "level": 10, "stats": { "defense": 10 } },
+      { "id": "hat_wizard", "baseMapleId": 1002100, "name": "Wizard Hat", "rarity": "uncommon", "classes": ["mage"], "level": 10, "stats": { "defense": 4, "magic_attack": 5, "mp": 15 } }
+    ],
+    "cape": [
+      { "id": "cape_basic", "baseMapleId": 1102000, "name": "Basic Cape", "rarity": "common", "classes": ["all"], "level": 5, "stats": { "defense": 2 } },
+      { "id": "cape_warrior", "baseMapleId": 1102010, "name": "Warrior Cape", "rarity": "uncommon", "classes": ["warrior"], "level": 15, "stats": { "defense": 5, "attack": 3 } },
+      { "id": "cape_mage", "baseMapleId": 1102020, "name": "Mage Cape", "rarity": "uncommon", "classes": ["mage"], "level": 15, "stats": { "defense": 3, "magic_attack": 5, "mp": 10 } },
+      { "id": "cape_thief", "baseMapleId": 1102030, "name": "Thief Cape", "rarity": "uncommon", "classes": ["thief"], "level": 15, "stats": { "defense": 3, "speed": 5, "jump": 3 } }
+    ],
+    "gloves": [
+      { "id": "gloves_basic", "baseMapleId": 1082000, "name": "Work Gloves", "rarity": "common", "classes": ["all"], "level": 1, "stats": { "defense": 1 } },
+      { "id": "gloves_leather", "baseMapleId": 1082002, "name": "Leather Gloves", "rarity": "common", "classes": ["all"], "level": 5, "stats": { "defense": 2, "attack": 1 } }
+    ],
+    "shield": [
+      { "id": "shield_wooden", "baseMapleId": 1092000, "name": "Wooden Shield", "rarity": "common", "classes": ["warrior", "beginner"], "level": 1, "stats": { "defense": 5 } },
+      { "id": "shield_steel", "baseMapleId": 1092002, "name": "Steel Shield", "rarity": "uncommon", "classes": ["warrior"], "level": 10, "stats": { "defense": 15 } }
+    ]
+  }
+}
+</script>
+</body>
+</html>

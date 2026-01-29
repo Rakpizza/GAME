@@ -1,0 +1,36 @@
+{
+  "type": "base_character",
+  "character": [
+    {
+      "itemId": 2000,
+      "version": "263"
+    },
+    {
+      "itemId": 12000,
+      "version": "263"
+    },
+    {
+      "itemId": 20005,
+      "version": "263"
+    }
+  ],
+  "poses": [
+    "stand1",
+    "stand2",
+    "walk1",
+    "walk2",
+    "jump",
+    "prone",
+    "alert",
+    "fly",
+    "ladder",
+    "rope",
+    "swingO1",
+    "swingO2",
+    "swingO3",
+    "stabO1",
+    "stabO2",
+    "proneStab"
+  ],
+  "created": "2026-01-25T10:35:45.069Z"
+}

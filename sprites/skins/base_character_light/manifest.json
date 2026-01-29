@@ -1,0 +1,27 @@
+{
+  "type": "base_character",
+  "skin_id": "light",
+  "skin_name": "🧑 בהיר (Light)",
+  "body_id": 2000,
+  "head_id": 12000,
+  "has_face": false,
+  "poses": [
+    "stand1",
+    "stand2",
+    "walk1",
+    "walk2",
+    "jump",
+    "prone",
+    "alert",
+    "fly",
+    "ladder",
+    "rope",
+    "stabO1",
+    "stabO2",
+    "swingO1",
+    "swingO2",
+    "swingO3",
+    "proneStab"
+  ],
+  "created": "2026-01-25T17:40:34.207Z"
+}

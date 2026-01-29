@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "exportDate": "2024-01-24",
+  "shop": {
+    "items": [
+      { "itemId": "coat_white", "price": 100 },
+      { "itemId": "coat_blue", "price": 200 },
+      { "itemId": "pants_blue", "price": 100 },
+      { "itemId": "pants_jeans", "price": 150 },
+      { "itemId": "shoes_basic", "price": 100 },
+      { "itemId": "shoes_leather", "price": 500 },
+      { "itemId": "weapon_sword", "price": 500 },
+      { "itemId": "weapon_axe", "price": 500 },
+      { "itemId": "weapon_dagger", "price": 400 },
+      { "itemId": "weapon_wand", "price": 450 },
+      { "itemId": "weapon_bow", "price": 500 },
+      { "itemId": "hat_cap", "price": 200 },
+      { "itemId": "gloves_basic", "price": 100 },
+      { "itemId": "shield_wooden", "price": 300 },
+      { "itemId": "cape_basic", "price": 400 }
+    ]
+  },
+  "monsters": {
+    "slime": {
+      "id": "slime",
+      "name": "Slime",
+      "drops": [
+        { "itemId": "coat_white", "chance": 5 },
+        { "itemId": "pants_blue", "chance": 5 },
+        { "itemId": "gloves_basic", "chance": 3 }
+      ]
+    },
+    "mushroom": {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "drops": [
+        { "itemId": "coat_blue", "chance": 4 },
+        { "itemId": "hat_cap", "chance": 3 },
+        { "itemId": "shoes_leather", "chance": 2 }
+      ]
+    },
+    "stump": {
+      "id": "stump",
+      "name": "Stump",
+      "drops": [
+        { "itemId": "weapon_sword", "chance": 3 },
+        { "itemId": "weapon_axe", "chance": 3 },
+        { "itemId": "shield_wooden", "chance": 2 },
+        { "itemId": "coat_armor", "chance": 1 }
+      ]
+    },
+    "pig": {
+      "id": "pig",
+      "name": "Pig",
+      "drops": [
+        { "itemId": "weapon_dagger", "chance": 4 },
+        { "itemId": "cape_basic", "chance": 2 },
+        { "itemId": "pants_jeans", "chance": 5 }
+      ]
+    },
+    "ribbon_pig": {
+      "id": "ribbon_pig",
+      "name": "Ribbon Pig",
+      "drops": [
+        { "itemId": "weapon_dagger_steel", "chance": 2 },
+        { "itemId": "shoes_brown", "chance": 3 },
+        { "itemId": "pants_black", "chance": 2 }
+      ]
+    },
+    "blue_snail": {
+      "id": "blue_snail",
+      "name": "Blue Snail",
+      "drops": [
+        { "itemId": "coat_white", "chance": 8 },
+        { "itemId": "shoes_basic", "chance": 5 }
+      ]
+    },
+    "horny_mushroom": {
+      "id": "horny_mushroom",
+      "name": "Horny Mushroom",
+      "drops": [
+        { "itemId": "hat_helmet", "chance": 2 },
+        { "itemId": "weapon_mace", "chance": 3 },
+        { "itemId": "coat_red", "chance": 2 }
+      ]
+    },
+    "green_mushroom": {
+      "id": "green_mushroom",
+      "name": "Green Mushroom",
+      "drops": [
+        { "itemId": "weapon_wand", "chance": 3 },
+        { "itemId": "hat_wizard", "chance": 1 },
+        { "itemId": "coat_mage_robe", "chance": 1 }
+      ]
+    },
+    "evil_eye": {
+      "id": "evil_eye",
+      "name": "Evil Eye",
+      "drops": [
+        { "itemId": "cape_warrior", "chance": 1 },
+        { "itemId": "cape_mage", "chance": 1 },
+        { "itemId": "cape_thief", "chance": 1 },
+        { "itemId": "weapon_staff", "chance": 2 }
+      ]
+    },
+    "wild_boar": {
+      "id": "wild_boar",
+      "name": "Wild Boar",
+      "drops": [
+        { "itemId": "weapon_sword_iron", "chance": 2 },
+        { "itemId": "weapon_bow_hunting", "chance": 2 },
+        { "itemId": "shield_steel", "chance": 1 }
+      ]
+    },
+    "fire_boar": {
+      "id": "fire_boar",
+      "name": "Fire Boar",
+      "drops": [
+        { "itemId": "weapon_fire_sword", "chance": 0.5 },
+        { "itemId": "weapon_sword_iron", "chance": 3 },
+        { "itemId": "hat_helmet", "chance": 2 }
+      ]
+    }
+  }
+}
